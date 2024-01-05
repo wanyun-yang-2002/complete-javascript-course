@@ -52,7 +52,7 @@ console.log(firstName + ' ' + lastName);
 
 ///////////////////////////////////////
 // Coding Challenge #1
-
+/*
 let markWeights = 78;
 let markHeight = 1.69;
 let johnWeights = 92;
@@ -92,4 +92,44 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 // const markHigherBMI = BMIMark > BMIJohn;
 markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIJohn, BMIMark, markHigherBMI);
+*/
+
+/*
+const firstName = 'yang';
+const job = 'intern';
+const birthYear = 2000;
+const year = 2038;
+
+const yang = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(yang);
+
+// use `` to write template literals
+const yangNew = `I'm ${firstName}, a ${year - birthYear} years old ${job} !`;
+console.log(yang);
+
+console.log('first line string \n\
+second line \n\
+third line');
+
+console.log(`1 line
+2 line
+3 line`);
+*/
+
+/*
+const age = 12;
+if (age >= 18) {
+  console.log('You can start driving license 🚗');
+} else {
+  console.log(`You are too young. Wait another ${18 - age} years.`);
+}
+
+const birthYear = 1991;
+if (birthYear <= 2000) {
+  let century = 20;
+} else {
+  let century = 21
+}
+console.log(century);
+*/
 
