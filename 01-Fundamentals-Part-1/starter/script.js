@@ -242,4 +242,46 @@ if (scoreDolphins > scoreKoalas && scoreKoalas >= 100) {
 }
 */
 
+/*
+const day = 'monday';
 
+switch (day) {
+  case 'monday':
+    console.log('plan course structure');
+    console.log('go to meetup');
+    break;
+  case 'tuesday':
+    console.log('this tuesday');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('this is 3 or 4');
+    break;
+  default:
+    console.log('not a valid day');
+}
+
+const age = 23;
+age >= 18 ? console.log("older than 18") : console.log('younger than 18');
+
+const drink = age >= 18 ? 'old' : 'young';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = 'old';
+} else {
+  drink2 = 'young';
+}
+console.log(drink2);
+
+console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
+
+//////////////////////////////
+// Coding challenge #4
+/*
+const bill = 275;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(`the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+*/
