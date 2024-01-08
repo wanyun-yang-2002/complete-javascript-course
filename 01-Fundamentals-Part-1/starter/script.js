@@ -136,6 +136,7 @@ console.log(century);
 //////////////////////////
 // Coding Challenge #2
 // 在第一个里面已经实现这一块的功能了
+/*
 const markWeights = 78;
 const markHeight = 1.69;
 const johnWeights = 92;
@@ -148,3 +149,97 @@ if (markBmi > johnBmi) {
 } else {
   console.log(`John's BMI (${markBmi}) is higher BMI than Mark's (${johnBmi})!`);
 }
+*/
+
+// type conversion
+/*
+const inputYear = '1990';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('yang'));
+console.log(typeof NaN);
+
+console.log(String(34), 34);
+
+// type coercion
+console.log('I am ' + 21 + ' years old');
+console.log('23' - '10' - 2);   // 11
+console.log('23' + '10' + 2);   // 23102
+console.log('23' * '2');    // 46
+console.log('23' / '2');    // 11.5
+console.log(2 + 3 + 4 + '5');   // 95
+console.log('10' - '5' - 1 + '2');  // 42
+*/
+
+/*
+// 5 falsy values: 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean());
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("you should find a job");
+}
+
+let height;
+if (height) {
+  console.log('ok');
+} else {
+  console.log('not ok');
+}
+
+const hasDriverLicense = true;
+const hasGoodVersion = true;
+
+console.log(hasDriverLicense && hasGoodVersion);
+console.log(hasDriverLicense || hasGoodVersion);
+console.log(!hasGoodVersion);
+
+if (hasDriverLicense && hasGoodVersion) {
+  console.log('she is able to drive');
+} else {
+  console.log('someone else should drive');
+}
+
+const isTired = false;
+console.log(hasDriverLicense && hasGoodVersion && isTired);
+
+if (hasDriverLicense && hasGoodVersion && !isTired) {
+  console.log('she is able to drive');
+} else {
+  console.log('someone else should drive');
+}
+*/
+
+/*
+////////////////////////////////////
+// Coding Challenge #3
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins, scoreKoalas);
+if (scoreDolphins > scoreKoalas) {
+  console.log('Dolphins win');
+} else if (scoreDolphins == scoreKoalas) {
+  console.log('same score');
+} else if (scoreDolphins < scoreKoalas) {
+  console.log('Koalas win');
+}
+
+// bonus 1
+if (scoreDolphins > scoreKoalas && scoreKoalas >= 100) {
+  console.log('Dolphins win');
+} else if (scoreDolphins === scoreKoalas) {
+  console.log('same score');
+} else if (scoreDolphins < scoreKoalas && scoreKoalas) {
+  console.log('Koalas win');
+}
+*/
+
+
